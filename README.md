@@ -1,1 +1,26 @@
-[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=21367325)
+# Jane the Ripper
+- A simple MD5 hash cracking dictionary attacker.
+
+## Installation
+- Simply clone the repo,
+```sh
+git clone https://github.com/WTCSC/jane-the-ripper-TimoS256.git
+```
+- Navigate to the new directory
+```sh
+cd jane-the-ripper-TimoS256
+```
+- Run the file
+```sh
+python3 jane.py
+```
+### Usage
+You will need 2 things:
+- A file with your hashes
+- A file with a bunch of words to check the hashes for. 
+- The program will ask you for both of these filenames, called the hash file and the word file. Type in these files, and if you typed a valid path, the hashes will be cracked!
+
+## Requirements
+- Python 3
+- A file with "your" hashes to crack.
+- A wordlist file
